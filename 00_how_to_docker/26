@@ -1,0 +1,1 @@
+docker service create --name engineering-bay --network overmind --replicas 2 -e OC_USERNAME=oessafi -e OC_PASSWD=12345 42school/engineering-bay
